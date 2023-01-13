@@ -20,11 +20,7 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-war-plugin</artifactId>
-	<version>3.2.2</version>
-</plugin>
+		
 	</dependencies>
 	
 	<build>
@@ -43,6 +39,11 @@
 			</container>
 		</configuration>
 	</plugin>
+			<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-war-plugin</artifactId>
+	<version>3.2.2</version>
+</plugin>
 		
 		<!-- Maven Plugin for Jetty -->
 <!-- 			<plugin>
